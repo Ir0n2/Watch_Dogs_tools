@@ -3,7 +3,11 @@ I played too much watch dogs, so like the virgin I am, I won't let fiction stay 
 
 # Phishing_tool
 goPerch is the name of our smtp phishing tool.
-You got 3 options:\n
-1: send a single phishing email to one person\n
-2: send a single phishing email to a list of people\n
-3: send a sms message using smtp (meaning you send a text message from your email)\n
+
+You got 3 options:
+
+1: send a single phishing email to one person
+
+2: send a single phishing email to a list of people
+
+3: send a sms message using smtp (meaning you send a text message from your email)
