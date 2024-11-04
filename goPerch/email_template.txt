@@ -1,0 +1,6 @@
+Hello {{.Name}},
+
+We wanted to let you know about our latest updates.
+Please click here for more info: {{.SenderName}}
+
+Best regards, ZeroCool.
