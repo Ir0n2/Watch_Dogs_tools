@@ -24,8 +24,8 @@ func main () {
 
 	var penis string
 	
-	from := "golangbot699@gmail.com"
-   	password := "kdxy zlvv unbk rssy"
+	from := "EMAIL"
+   	password := "PASSWORD"
 
 
 	loop: for {
