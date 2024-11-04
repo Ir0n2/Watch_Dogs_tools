@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<style>
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+ .title{
+	padding: 70px 0;
+	border: 3px solid green;
+	text-align: center;
+	background-color: lightblue;
+ }
+ .butt{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 1000px;
+  border: 3px solid green; 
+  background-color: lightblue;
+  margin-left: auto;
+  margin-right: auto;
+ }
+
+ .count{
+ text-align: center;
+ }
+
+ body {
+   background-color: blue;
+ }
+
+</style>
+
+<script>
+function light(sw) {
+  var pic;
+  if (sw == 0) {
+    pic = "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.LXceUoz0MkvYhcuarAw8JgAAAA%26pid%3DApi&f=1&ipt=6274e5fd87525184ce6ee562a6f7b7b7e0ab3f385b22b8f02b34352c1e4754d7&ipo=images"
+  } if(sw == 1) {
+    pic = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQkCIDd-559EydOANdkxoRjIb8vY-ZEbv78Q&usqp=CAU"
+  } if(sw == 2) {
+    pic = "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.3eGi2vB8-WMdSQ_sM6HAxAHaLH%26pid%3DApi&f=1&ipt=eb81fb6e3421af18789b3b894bf83d5e70b307eb3f14037cc48596210b9ed2de&ipo=images"
+  } if(sw == 3) {
+      pic = "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.KDz1Rpf5Mv8_oq94xX82kgHaEK%26pid%3DApi&f=1&ipt=c5fdb25c23e0df989b8cb3ea89544625efd344945f9ba1598f47ccc811626dea&ipo=images"
+  } if(sw == 4) {
+    pic = "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.GnezpkOqpT0qvXKQRBmNowHaF6%26pid%3DApi&f=1&ipt=7eb6062fe2caafa17149700f666a279b80db745ef493220007fc67f61c306887&ipo=images"
+  } if(sw == 5) {
+    pic = "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.f3twYWdBmrBR0n4ErsDJtwAAAA%26pid%3DApi&f=1&ipt=cc35a9ca783e382223b3978a50e70071ebf29c4e30b650a4807455a116e168a4&ipo=images"
+  } if(sw == 6) {
+    pic = "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.6faHV-aW40BYoPusVqKjNgHaJh%26pid%3DApi&f=1&ipt=9912e044bd6079e0323f25e2ee5444e122909ad1851bfd165ff3d5c7c1add16a&ipo=images"
+
+  } if(sw == 7) {
+      pic = "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.QMd69ReyZGPuhb9x-sbu8gAAAA%26pid%3DApi&f=1&ipt=f6bb92038e91f20e1f32c73704607fc04571a23f8331f4406ad12a72d66a1b5c&ipo=images"
+  } if(sw == 8) {
+      pic = "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.TqiOXhnllgpi4CHEWbLotQHaFD%26pid%3DApi&f=1&ipt=98f488d44f7bc36933d2c399497218005098f836f85b74237bf051e9a125b294&ipo=images"
+	  } if(sw == 9) {
+      pic = "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.UKNCqMxZr1NF_SbLVfgy7AHaFJ%26pid%3DApi&f=1&ipt=623efb7a36cd2a2e382933bb048315e90902c0188639e1c93cae290d11afe412&ipo=images"
+          } if(sw == 10) {
+      pic = "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.rfiqao3LeQIQA6NO0JTohQHaFj%26pid%3DApi&f=1&ipt=bd173f4bbcf41a59e00b49a2e08cf529849dccfe41727e84289e80f0e39fa830&ipo=images"
+          }
+
+
+  document.getElementById("myNum").innerHTML = sw;
+  document.getElementById('myImage').src = pic;
+}
+</script>
+
+<div class="title">
+<h1>Monkey machine</h1>
+</div>
+
+<img id="myImage" src="https://m.media-amazon.com/images/M/MV5BNTIwOTg0NTA0NF5BMl5BanBnXkFtZTgwMTc1Mjc4ODE@._V1_.jpg" width="200" height="280">
+
+<div class="count">
+<h1>Monkey Number <span id="myNum"></span></h1>
+</div>
+
+<div class="butt">
+
+<button type="button"onclick="var a = Math.floor(Math.random() * 11); light(a)">Click me to display random monkey.</button>
+
+</div>
+
+<p id="demo"></p>
+
+</body>
+</html>
