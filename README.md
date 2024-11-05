@@ -21,3 +21,6 @@ Or find other ways to embed it, embeding it in an image or something less suspic
 # GoPhish
 Really doing alot of phishing tools here. This is another webserver meant to emulate login pages. It's very simple to use and modify.
 Just run the server and try localhost:8080/instagram
+
+#Network Scanner
+I needed to do something that wasn't a phishing tool. This works well for discovering devices, such as cameras, on network. Evem a network as far as serbia.
