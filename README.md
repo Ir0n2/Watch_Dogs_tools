@@ -24,3 +24,7 @@ Just run the server and try localhost:8080/instagram
 
 # Network Scanner
 I needed to do something that wasn't a phishing tool. This works well for discovering devices, such as cameras, on network. Even a network as far as serbia.
+
+# Wifi network guesser
+On one hand, I want to write cool names for all these tools, but on the other... It's much easier to creates these self explanatory file names.
+Seriously, this one just guesses the password for wifi networks. Great for when you forget your own.
