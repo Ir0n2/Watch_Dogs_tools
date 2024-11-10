@@ -37,9 +37,17 @@ go run catPhishServer.go
 Really doing alot of phishing tools here. This is another webserver meant to emulate login pages. It's very simple to use and modify.
 Just run the server and try localhost:8080/instagram
 
+cd Phishing
+
+go run PhishingServer.go
+
 # Network Scanner
 I needed to do something that wasn't a phishing tool. This works well for discovering devices, such as cameras, on network. Even a network as far as serbia.
+
+go run networkScanner.go
 
 # Wifi network guesser
 On one hand, I want to write cool names for all these tools, but on the other... It's much easier to creates these self explanatory file names.
 Seriously, this one just guesses the password for wifi networks. Great for when you forget your own.
+
+sudo bash wifiBruteForce.sh
