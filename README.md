@@ -10,9 +10,9 @@ goPerch is the name of our smtp phishing tool.
 
 How to run:
 
-cd goPerch
+-cd goPerch
 
-go run email.go
+-go run email.go
 
 You got 3 options:
 
@@ -31,9 +31,9 @@ which probably isn't very effecient but, it works, on firefox running on a lapto
 
 How to use CatPhish:
 
-cd catfish
+-cd catfish
 
-go run catPhishServer.go
+-go run catPhishServer.go
 
 
 
@@ -41,17 +41,28 @@ go run catPhishServer.go
 Really doing alot of phishing tools here. This is another webserver meant to emulate login pages. It's very simple to use and modify.
 Just run the server and try localhost:8080/instagram
 
-cd Phishing
+-cd Phishing
 
-go run PhishingServer.go
+-go run PhishingServer.go
 
 # Network Scanner
 I needed to do something that wasn't a phishing tool. This works well for discovering devices, such as cameras, on network. Even a network as far as serbia.
 
-go run networkScanner.go
+-go run networkScanner.go
 
 # Wifi network guesser
 On one hand, I want to write cool names for all these tools, but on the other... It's much easier to creates these self explanatory file names.
 Seriously, this one just guesses the password for wifi networks. Great for when you forget your own.
 
-sudo bash wifiBruteForce.sh
+-sudo bash wifiBruteForce.sh
+
+# HashCracker / HashTester
+
+-go run HashCracker.go
+
+-go run HashTester.go
+
+(It's really this simple, I feel like I shouldn't have to write this.)
+
+make sure you have figlet installed for this one specifically. But this one can crack SHA1, SHA256, SHA512, and MD5 hashes. There's also a complimentary hash tester to go with it. 
+Run the hash through the tester, if it's SHA1, SHA256, SHA512, or MD5 you can take a crack at it with the hash cracker.
