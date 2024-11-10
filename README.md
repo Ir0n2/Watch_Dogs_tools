@@ -1,6 +1,10 @@
 # Watch_Dogs_tools
 I played too much watch dogs, so like the virgin I am, I won't let fiction stay fiction, I am now trying to create a bunch of watch dogs themed hacking tools. All I got right now is a shitty phishing tool though.
 
+You'll want to instal figlet! It's a tool for creating ascii logos. I've added to my hash cracker
+
+-sudo apt install figlet
+
 # Phishing_tool
 goPerch is the name of our smtp phishing tool.
 
