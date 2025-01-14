@@ -66,3 +66,8 @@ Seriously, this one just guesses the password for wifi networks. Great for when 
 
 make sure you have figlet installed for this one specifically. But this one can crack SHA1, SHA256, SHA512, and MD5 hashes. There's also a complimentary hash tester to go with it. 
 Run the hash through the tester, if it's SHA1, SHA256, SHA512, or MD5 you can take a crack at it with the hash cracker.
+
+# Search thingy
+
+The search thing is basically just sherlock. searches for the same name across a few different websites. sometimes it has false positives. Usually it's accurate.
+It's kinda cool, I didn't know my homie used twitter until I used this. So it definetly works.
