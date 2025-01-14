@@ -69,5 +69,5 @@ Run the hash through the tester, if it's SHA1, SHA256, SHA512, or MD5 you can ta
 
 # Search thingy
 
-The search thing is basically just sherlock. searches for the same name across a few different websites. sometimes it has false positives. Usually it's accurate.
+The search thing is basically just [Sherlock](https://github.com/sherlock-project/sherlock) searches for the same name across a few different websites. sometimes it has false positives. Usually it's accurate.
 It's kinda cool, I didn't know my homie used twitter until I used this. So it definetly works.
